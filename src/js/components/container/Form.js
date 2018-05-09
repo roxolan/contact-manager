@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import uuidv1 from "uuid";
-import { addContact } from "../../actions/index";
-import Input from "../presentational/Input";
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import uuidv1 from 'uuid';
+import { addContact } from '../../actions/index';
+import Input from '../presentational/Input';
 
 const mapDispatchToProps = dispatch => {
   return {

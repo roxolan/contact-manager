@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import Input from "../presentational/Input";
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import Input from '../presentational/Input';
 
 class FormContainer extends Component {
   constructor() {
     super();
 
     this.state = {
-      first_name: ""
+      name: ""
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -18,16 +18,16 @@ class FormContainer extends Component {
   }
 
   render() {
-    const { first_name } = this.state;
+    const { name } = this.state;
 
     return (
-      <form id="contact-form">
+      <form id="contact_form">
         <Input
-          text="First Name"
-          label="first_name"
+          text="Name"
+          label="name"
           type="text"
-          id="first_name"
-          value={first_name}
+          id="name"
+          value={name}
           handleChange={this.handleChange}
         />
       </form>

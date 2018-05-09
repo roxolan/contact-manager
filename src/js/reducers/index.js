@@ -1,4 +1,4 @@
-import { ADD_CONTACT } from "../constants/actionTypes";
+import { ADD_CONTACT } from '../constants/actionTypes';
 
 const initialState = {
   contacts: []

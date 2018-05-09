@@ -34,7 +34,6 @@
       "picture": "https://www.fakepersongenerator.com/Face/male/male20161085978896667.jpg"
     },
     {
-      "id": 4,
       "first_name": "Ann",
       "last_name": "Thompson",
       "job_title": "QA Inspector",
@@ -42,7 +41,8 @@
       "phone_number": "512-879-3201",
       "mobile_number": "650-276-5805",
       "email": "at@tt.com",
-      "picture": "https://www.fakepersongenerator.com/Face/female/female20151024178480255.jpg"
+      "picture": "https://www.fakepersongenerator.com/Face/female/female20151024178480255.jpg",
+      "id": 4
     }
   ]
 }

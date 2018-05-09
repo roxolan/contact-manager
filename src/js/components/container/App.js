@@ -1,6 +1,6 @@
-import React from "react";
-import ContactsList from "./ContactsList";
-import Form from "./Form";
+import React from 'react';
+import ContactsList from './ContactsList';
+import Form from './Form';
 
 const App = () => (
   <div className="row mt-5">
