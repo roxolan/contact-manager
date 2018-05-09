@@ -14,3 +14,5 @@ JS-based single page application for contact management
 - $ npm i -g json-server
 - $ cd backend
 - $ json-server --watch contacts.json
+
+#### Semantic UI
