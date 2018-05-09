@@ -1,2 +1,2 @@
-import FormContainer from "./js/components/container/FormContainer";
+import ContactsContainer from "./js/components/container/ContactsContainer";
 import style from "./main.css";
