@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 const mapStateToProps = state => {
   return { contacts: state.contacts };
 };
 
-const ConnectedList = ({ contacts }) => (
-  <ul className="list-group list-group-flush">
-    {contacts.map(el => (
-      <li className="list-group-item" key={el.id}>
-        {el.name}
-      </li>
-    ))}
-  </ul>
-);
+class ContactListContainer extends Component {
+  render() {
+    const { contacts = [] } = this.props;
+    return (
+      <ul className="list-group list-group-flush">
+        {contacts.map(el => (
+          <li className="list-group-item" key={el.id}>
+            {el.name}
+          </li>
+        ))}
+      </ul>
+    )
+  }
+}
 
-const ContactListContainer = connect(mapStateToProps)(ConnectedList);
-
-export default ContactListContainer;
+export default connect(mapStateToProps)(ContactListContainer);
