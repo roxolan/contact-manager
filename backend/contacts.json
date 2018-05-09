@@ -1,0 +1,48 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "first_name": "Peter",
+      "last_name": "Johnson",
+      "job_title": "Department Manager",
+      "address": "3589 avenue de Port-Royal, Bonaventure, QC, G0C 1E0",
+      "phone_number": "514-231-0030",
+      "mobile_number": "305-238-7767",
+      "email": "ps@tt.com",
+      "picture": "https://www.fakepersongenerator.com/Face/male/male1084752928344.jpg"
+    },
+    {
+      "id": 2,
+      "first_name": "Maryna",
+      "last_name": "Smith",
+      "job_title": "Division Curator",
+      "address": "1533 Papineau Avenue, Montreal, QC, H2K 4J5",
+      "phone_number": "514-970-2017",
+      "mobile_number": "908-737-3041",
+      "email": "ms@tt.com",
+      "picture": "https://www.fakepersongenerator.com/Face/female/female20161025753607178.jpg"
+    },
+    {
+      "id": 3,
+      "first_name": "John",
+      "last_name": "Silver",
+      "job_title": "Project Manager",
+      "address": "2096 rue Levy, Montreal, QC, H3C 5K4",
+      "phone_number": "514-231-0030",
+      "mobile_number": "617-970-6580",
+      "email": "js@tt.com",
+      "picture": "https://www.fakepersongenerator.com/Face/male/male20161085978896667.jpg"
+    },
+    {
+      "id": 4,
+      "first_name": "Ann",
+      "last_name": "Thompson",
+      "job_title": "QA Inspector",
+      "address": "616 rue de la Gauchetière, Montreal, QC, H3B 2M3",
+      "phone_number": "512-879-3201",
+      "mobile_number": "650-276-5805",
+      "email": "at@tt.com",
+      "picture": "https://www.fakepersongenerator.com/Face/female/female20151024178480255.jpg"
+    }
+  ]
+}

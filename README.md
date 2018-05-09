@@ -11,3 +11,6 @@ JS-based single page application for contact management
 
 #### JSON-server
 - Mocking API
+- $ npm i -g json-server
+- $ cd backend
+- $ json-server --watch contacts.json
