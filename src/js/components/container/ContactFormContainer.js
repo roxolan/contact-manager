@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import uuidv1 from 'uuid';
 import { addContact } from '../../actions/index';
 import Input from '../presentational/Input';
+import ContactForm from '../presentational/ContactForm';
 
 const mapDispatchToProps = dispatch => {
   return {
@@ -37,6 +38,7 @@ class ConnectedForm extends Component {
   render() {
     const { name } = this.state;
     return (
+      <div>
       <form onSubmit={this.handleSubmit}>
         <Input
           text="Name"
@@ -50,9 +52,11 @@ class ConnectedForm extends Component {
           SAVE
         </button>
       </form>
+      <ContactForm />
+      </div>
     );
   }
 }
 
-const Form = connect(null, mapDispatchToProps)(ConnectedForm);
-export default Form;
+const ContactFormContainer = connect(null, mapDispatchToProps)(ConnectedForm);
+export default ContactFormContainer;
