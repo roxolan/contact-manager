@@ -1,3 +1,11 @@
 import React from 'react';
 
-// dumb presentational component
+const ContactList = () => {
+  return (
+    <div>
+      <p>No contacts here</p>
+    </div>
+  )
+}
+
+export default ContactList;
