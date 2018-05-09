@@ -17,14 +17,8 @@ class ContactListContainer extends Component {
     const { contacts = [] } = this.props;
     return (
         <div>
-        <ul className="list-group list-group-flush">
-          {contacts.map(el => (
-            <li className="list-group-item" key={el.id}>
-              {el.first_name} = {el.last_name}
-            </li>
-          ))}
-        </ul>
-        <ContactList />
+          <h1>List of Contacts</h1>
+          <ContactList contacts={this.props.contacts} />
         </div>
     )
   }
