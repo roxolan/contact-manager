@@ -4,7 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './js/store/index';
 import App from './js/components/container/App';
-import style from './main.css';
+import 'semantic-ui-css/semantic.css';
+import './main.css';
 
 render(
   <BrowserRouter>
