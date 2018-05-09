@@ -14,4 +14,21 @@ export const fetchContacts = () => {
   }
 }
 
+export const newContact = () => {
+  return dispatch => {
+    dispatch({
+      type: 'NEW_CONTACT'
+    })
+  }
+}
+
+export const saveContact = contact => {
+  return dispatch => {
+    return dispatch({
+      type: 'SAVE_CONTACT',
+      payload: client.post(url, contact)
+    })
+  }
+}
+
 export const addContact = contact => ({ type: ADD_CONTACT, payload: contact });

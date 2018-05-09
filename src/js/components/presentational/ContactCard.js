@@ -11,7 +11,8 @@ export default function ContactCard({contact, deleteContact}) {
           <Icon name='user outline'/> {contact.first_name} {contact.last_name}
         </Card.Header>
         <Card.Description>
-          <p><Icon name='phone'/> {contact.phone}</p>
+          <p><Icon name='phone'/> {contact.phone_number}</p>
+          <p><Icon name='mobile'/> {contact.mobile_number}</p>
           <p><Icon name='mail outline'/> {contact.email}</p>
         </Card.Description>
       </Card.Content>
