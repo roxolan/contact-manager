@@ -10,6 +10,10 @@
   "author": "Viktor Kotusenko",
   "license": "GPL",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "webpack": "^4.7.0",
     "webpack-cli": "^2.1.2"
   }
