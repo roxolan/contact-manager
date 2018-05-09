@@ -36,3 +36,6 @@ class FormContainer extends Component {
 }
 
 export default FormContainer;
+
+const wrapper = document.getElementById("create_contact_form");
+wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
