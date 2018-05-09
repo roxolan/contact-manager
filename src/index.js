@@ -13,5 +13,5 @@ render(
       <App />
     </Provider>
   </BrowserRouter>,
-  document.getElementById("app")
+  document.getElementById('app')
 );

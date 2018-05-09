@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import uuidv1 from 'uuid';
-import { addContact } from '../../actions/index';
+import { addContact } from '../../actions/contactActions';
 import Input from '../presentational/Input';
 import ContactForm from '../presentational/ContactForm';
 

@@ -1,16 +1,8 @@
-import { FETCH_CONTACTS, ADD_CONTACT } from '../constants/actionTypes';
+import { combineReducers } from 'redux';
+import ContactReducer from './contactReducer';
 
-const initialState = {
-  contacts: []
-};
+const reducers = {
+  contactStore: ContactReducer
+}
 
-export default (state = initialState, action = {}) => {
-  switch (action.type) {
-  case FETCH_CONTACTS:
-    return { ...state, contacts: action.payload };
-  case ADD_CONTACT:
-    return { ...state, contacts: [...state.contacts, action.payload] };
-  default:
-    return state;
-  }
-};
+export default combineReducers(reducers);
