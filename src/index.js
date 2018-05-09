@@ -4,10 +4,10 @@ import { Provider } from 'react-redux';
 import store from './js/store/index';
 import App from './js/components/container/App';
 import style from './main.css';
+import routes from './js/routes';
 
-render(
+module.exports = render((
   <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById("app")
-);
+    {routes}
+  </Provider>
+), document.getElementById("app"));
