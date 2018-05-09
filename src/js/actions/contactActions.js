@@ -1,12 +1,15 @@
 import { contacts } from '../../../backend/contacts-data'
-
+import { client } from './';
 import { FETCH_CONTACTS, ADD_CONTACT } from '../constants/actionTypes';
+
+const url = '/contacts';
+console.log('client get from url:', client.get(url))
 
 export const fetchContacts = () => {
   return dispatch => {
     dispatch({
       type: FETCH_CONTACTS,
-      payload: contacts
+      payload: client.get(url)
     })
   }
 }
