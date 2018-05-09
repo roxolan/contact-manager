@@ -7,7 +7,7 @@ class FormContainer extends Component {
     super();
 
     this.state = {
-      title: ""
+      first_name: ""
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -18,16 +18,16 @@ class FormContainer extends Component {
   }
 
   render() {
-    const { seo_title } = this.state;
+    const { first_name } = this.state;
 
     return (
       <form id="contact-form">
         <Input
-          text="SEO title"
-          label="seo_title"
+          text="First Name"
+          label="first_name"
           type="text"
-          id="seo_title"
-          value={seo_title}
+          id="first_name"
+          value={first_name}
           handleChange={this.handleChange}
         />
       </form>
@@ -35,7 +35,7 @@ class FormContainer extends Component {
   }
 }
 
-export default FormContainer;
-
 const wrapper = document.getElementById("create_contact_form");
 wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
+
+export default FormContainer;
