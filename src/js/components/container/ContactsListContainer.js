@@ -15,6 +15,6 @@ const ConnectedList = ({ contacts }) => (
   </ul>
 );
 
-const ContactsList = connect(mapStateToProps)(ConnectedList);
+const ContactListContainer = connect(mapStateToProps)(ConnectedList);
 
-export default ContactsList;
+export default ContactListContainer;
